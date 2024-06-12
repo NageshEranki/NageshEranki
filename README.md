@@ -1,7 +1,7 @@
 ## Welcome to my GitHub profile!
 
 <p align="center">
-  <img src=https://github.com/NageshEranki/NageshEranki/assets/28665953/abeaa9c6-aec2-491e-8c51-4044252f9f4b alt="grad" width="400"/>
+  <img src=https://github.com/NageshEranki/NageshEranki/assets/28665953/abeaa9c6-aec2-491e-8c51-4044252f9f4b alt="grad" width="300"/>
 </p>
 
 I graduated with an MS in Aerospace Engineering from UIUC, with a specialization in Control & Dynamical Systems. I deeply enjoy tinkering on hardware and am an avid experimentalist. Through coursework, I have the following competencies:
@@ -17,3 +17,15 @@ My project explores techniques for minimizing informations required for basic co
 <p align="center">
   <img src=https://github.com/NageshEranki/NageshEranki/assets/28665953/fb9f29a7-eab6-4247-add6-d1ab2b002afa alt="Crazyflie" width
 ="300"/>
+
+### Teaching Assistantships
+
+Throughout my grad program, I had the amazing opportunity to TA for two awesome classes within the [Control Systems Lab](https://coecsl.ece.illinois.edu) complex:
+  -  Robot Dynamics & Control (ME 446) :  Spring 2023, Spring 2024
+  -  Autonomous Systems Lab (AE 483) :  Fall 2024
+
+I have made it to the [List of Teachers ranked Excellent by their Students](https://citl.illinois.edu/citl-101/measurement-evaluation/teaching-evaluation/teaching-evaluations-(ices)/teachers-ranked-as-excellent) each time!
+
+### Outside work
+
+When I need to look away from screens, I go off on a very long walk (weather permitting!). I enjoy ranking restaurants in the twin-cities of Champaign-Urbana (email me for my recommendations :D )
