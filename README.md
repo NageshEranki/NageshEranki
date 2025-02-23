@@ -18,6 +18,15 @@ My project explores techniques for minimizing informations required for basic co
   <img src=https://github.com/NageshEranki/NageshEranki/assets/28665953/fb9f29a7-eab6-4247-add6-d1ab2b002afa alt="Crazyflie" width
 ="300"/>
 
+### Hopping quadrotor!
+
+A project I am working on to enable hopping quadrotors to push objects around! The build was inspired by the [Hopcopter](https://www.science.org/doi/10.1126/scirobotics.adi8912) and I was able to get my own Crazyflie quadrotor to hop in under 3 weeks!
+
+https://github.com/user-attachments/assets/ace52338-249e-43dc-a01f-b045b5afb804
+
+
+
+
 ### Teaching Assistantships
 
 Throughout my grad program, I had the amazing opportunity to TA for two awesome classes within the [Control Systems Lab](https://coecsl.ece.illinois.edu) complex:
