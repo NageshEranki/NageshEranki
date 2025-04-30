@@ -11,11 +11,11 @@ I earned an MS in Aerospace Engineering (Control & Dynamical Systems) from UIUC 
   - Advanced Orbital Mechanics (AE 502)
   - Mechanical Design
 
-Here are some important links:
+### Here are some important links:
   - [My resume](https://drive.google.com/file/d/1iweYgZoTJKIGZSdd6F7h5PIlCRvmW05X/view?usp=share_link)
   - [A summary of my projects](https://drive.google.com/file/d/17ltSVjsusHz3cruyfFDI6q5yvDeNkawu/view?usp=share_link)
   - [My LinkedIn profile](https://www.linkedin.com/in/neranki/)
-
+  - [A YouTube link to my latest project!](https://youtu.be/QioOFWBMlps)
 ### Master's thesis
 
 My project explores techniques for minimizing informations required for basic control objectives, namely, maintaining a hover position for a [Crazyflie quadrotor](https://github.com/bitcraze/crazyflie-firmware). I got to spend a great deal of time working with open-source software and even got to use the AE dept's Qualisys Motion capture system!
