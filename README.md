@@ -12,7 +12,7 @@ I earned an MS in Aerospace Engineering (Control & Dynamical Systems) from UIUC 
   - Mechanical Design
 
 ### Important links:
-  - [My resume](https://drive.google.com/file/d/1iweYgZoTJKIGZSdd6F7h5PIlCRvmW05X/view?usp=share_link)
+  - [My resume](https://drive.google.com/file/d/17qCF9hHr4oaUFfYplCP7PoJMtTTMM-fN/view?usp=share_link)
   - [A summary of my projects](https://drive.google.com/file/d/17ltSVjsusHz3cruyfFDI6q5yvDeNkawu/view?usp=share_link)
   - [My LinkedIn profile](https://www.linkedin.com/in/neranki/)
   - [A YouTube link to my latest project!](https://youtu.be/QioOFWBMlps)
