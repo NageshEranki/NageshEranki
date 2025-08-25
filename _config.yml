@@ -1,3 +1,15 @@
+# _config.yml
+
+# Site settings
+title: Nagesh Eranki # Replace with your name
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome! Here is a list of projects I have worked on in the past
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://nagesheranki.github.io/NageshEranki/" # replace with your site's URL
+github_username:  NageshEranki
+
+# Theme
 theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+
+# Build settings
+markdown: kramdown
