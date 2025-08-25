@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <!-- Tailwind CSS for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* Use Inter font family */
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    /* Simple animation for cards on hover */
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Main Container -->
+  <div class="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+
+    <!-- Header Section -->
+    <header class="text-center mb-12">
+      <!-- Profile Image -->
+      <img src="https://placehold.co/128x128/E2E8F0/4A5568?text=You" alt="Your Profile Picture" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-lg">
+      
+      <!-- Name and Title -->
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900">Jane Doe</h1>
+      <p class="mt-2 text-lg sm:text-xl text-gray-600">Full-Stack Developer & Open-Source Enthusiast</p>
+      
+      <!-- Social Links -->
+      <div class="mt-6 flex justify-center space-x-6">
+        <a href="#" class="text-gray-500 hover:text-gray-900 transition-colors duration-300">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd" /></svg>
+        </a>
+        <a href="#" class="text-gray-500 hover:text-gray-900 transition-colors duration-300">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
+        </a>
+        <a href="#" class="text-gray-500 hover:text-gray-900 transition-colors duration-300">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.206v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.47 1.355h2.94v8.59H3.535v-8.59z" clip-rule="evenodd" /></svg>
+        </a>
+      </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="mb-16">
+      <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+      <div class="bg-white p-8 rounded-lg shadow-md">
+        <p class="text-gray-700 leading-relaxed">
+          Hello! I'm Jane, a developer with a passion for building clean, efficient, and user-friendly web applications. I have experience working with JavaScript, React, Node.js, and Python. I thrive on solving complex problems and enjoy collaborating with teams to bring ideas to life.
+        </p>
+        <p class="text-gray-700 leading-relaxed mt-4">
+          When I'm not coding, you can find me exploring new hiking trails, contributing to open-source projects, or experimenting with new recipes in the kitchen.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2 class="text-3xl font-bold text-center mb-8">My Projects</h2>
+      
+      <!-- Grid for Project Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Project Card 1 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden project-card transition-all duration-300">
+          <img src="https://placehold.co/600x400/34D399/FFFFFF?text=Project+One" alt="Project One Screenshot" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">E-Commerce Platform</h3>
+            <p class="text-gray-700 mb-4">A full-featured e-commerce site built with the MERN stack. Includes product listings, user authentication, and a Stripe-powered checkout.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-teal-100 text-teal-800 text-xs font-medium px-2.5 py-0.5 rounded-full">React</span>
+              <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Node.js</span>
+              <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">MongoDB</span>
+              <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Stripe API</span>
+            </div>
+            <div class="flex space-x-4">
+              <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">Live Demo</a>
+              <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden project-card transition-all duration-300">
+          <img src="https://placehold.co/600x400/60A5FA/FFFFFF?text=Project+Two" alt="Project Two Screenshot" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Data Visualization Dashboard</h3>
+            <p class="text-gray-700 mb-4">An interactive dashboard for visualizing sales data using D3.js and React. Features dynamic charts and filters.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-teal-100 text-teal-800 text-xs font-medium px-2.5 py-0.5 rounded-full">React</span>
+              <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded-full">D3.js</span>
+              <span class="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Python (Flask)</span>
+            </div>
+            <div class="flex space-x-4">
+              <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">Live Demo</a>
+              <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium">Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more project cards here... -->
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-16">
+      <p class="text-gray-500">&copy; 2024 Jane Doe. All Rights Reserved.</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
