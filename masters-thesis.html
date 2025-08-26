@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autonomous Quadcopter Navigation - Nagesh Eranki</title>
+  <!-- Tailwind CSS with the Typography plugin for styling text content -->
+  <script src="https://cdn.tailwindcss.com/3.4.1?plugins=typography"></script>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    /* Smooth scrolling for anchor links */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Main Container -->
+  <div class="container mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+
+    <!-- Back Link -->
+    <div class="mb-8">
+      <a href="index.html" class="text-indigo-600 hover:text-indigo-800 font-medium">&larr; Back</a>
+    </div>
+
+    <!-- Project Header -->
+    <header class="mb-8">
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900">Masters' Thesis</h1>
+      <div class="flex flex-wrap gap-2 mt-4">
+        <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">C++</span>
+        <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">MATLAB</span>
+        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Python</span>
+        <span class="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Control Theory</span>
+      </div>
+    </header>
+
+    <!-- Main Project Image/Video -->
+    <div class="mb-12 bg-white p-4 rounded-lg shadow-md">
+      <img src="assets/encoded_feedback.png" alt="Encoded feedback" class="w-full rounded-lg">
+    </div>
+
+    <!-- Key Sections Links -->
+    <div class="mb-12 bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-bold mb-4">Sections</h3>
+        <ul class="list-disc list-inside space-y-2">
+            <li><a href="#goal" class="text-indigo-600 hover:underline">Project Goal</a></li>
+            <li><a href="#tech-dive" class="text-indigo-600 hover:underline">Technical Deep Dive</a></li>
+            <li><a href="#challenges" class="text-indigo-600 hover:underline">Challenges and Solutions</a></li>
+            <li><a href="#results" class="text-indigo-600 hover:underline">Results and Outcome</a></li>
+        </ul>
+    </div>
+
+    <!-- Project Deep Dive -->
+    <!-- The 'prose' classes from the Typography plugin automatically style all the text content inside this article -->
+    <article class="bg-white p-8 rounded-lg shadow-md prose prose-lg max-w-none">
+      
+      <h2 id="goal">Project Goal</h2>
+      <p>This project was concerned with exploring the relationship between position feedback data-rates and a quadrotors' station-keeping performance.
+        To this end, I performed system identification (mass, moments of inertia, thrust profile), control synthesis, model-in-loop, software-in-loop
+      and finally, flights tests on a physical quadrotor. </p>
+      
+      <!-- <h2 id="tech-dive">Technical Deep Dive</h2> -->
+      <!-- <p>The system was built upon the Robot Operating System (ROS) framework for modularity. A LiDAR sensor provided environmental data, while an IMU supplied orientation feedback. I was responsible for the following:</p>
+      <ul>
+        <li><strong>Sensor Fusion:</strong> Implemented a Kalman filter in C++ to fuse data from the IMU and LiDAR, providing a more accurate state estimation of the drone.</li>
+        <li><strong>SLAM Implementation:</strong> Utilized the GMapping ROS package to process LiDAR scans and build a real-time occupancy grid map of the surroundings.</li>
+        <li><strong>Path Planning:</strong> Developed a pathfinding algorithm using A* search on the generated map to navigate from a start point to a goal point while avoiding obstacles.</li>
+        <li><strong>Mechanical Design:</strong> Designed the quadcopter frame and sensor mounts in SolidWorks, ensuring structural integrity and minimizing vibration.</li>
+      </ul> -->
+
+      <!-- <h2 id="challenges">Challenges and Solutions</h2> -->
+      <!-- <p>One of the main challenges was sensor noise from the IMU, which caused drift in the map. This was mitigated by fine-tuning the Kalman filter parameters and implementing a loop closure detection mechanism to correct the map when the drone recognized a previously visited area.</p> -->
+
+      <!-- <h2 id="results">Results and Outcome</h2> -->
+      <!-- <p>The final prototype was able to successfully map a 10x10 meter room with 95% accuracy and navigate between specified points without collision. The project provided invaluable hands-on experience in robotics, control systems, and software integration.</p> -->
+
+    </article>
+
+    <!-- Footer -->
+    <footer class="text-center mt-16">
+        <a href="index.html" class="text-indigo-600 hover:text-indigo-800 font-medium">&larr; Back</a>
+    </footer>
+
+  </div>
+
+</body>
+</html>
