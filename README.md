@@ -7,6 +7,10 @@ I earned an MS in Aerospace Engineering (Control & Dynamical Systems) from UIUC 
   - Advanced Orbital Mechanics (AE 502)
   - Mechanical Design
 
+My [resume](NageshEranki.pdf)
+
+A [summary](Presentation.pdf) of some projects I worked on
+
 ### Outside work
 
 When I need to look away from screens, I go off on a very long walk (weather permitting!). I enjoy ranking restaurants in the twin-cities of Champaign-Urbana (email me for my recommendations :D )
