@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Back to TOC CSS -->
+  <link rel="stylesheet" href="assets/css/back-to-toc.css">
   <style>
     body {
       font-family: 'Inter', sans-serif;
@@ -51,7 +53,7 @@
         <h3 class="text-xl font-bold mb-4">Sections</h3>
         <ul class="list-disc list-inside space-y-2">
             <li><a href="#goal" class="text-indigo-600 hover:underline">Project Goal</a></li>
-            <!-- <li><a href="#tech-dive" class="text-indigo-600 hover:underline">Technical Deep Dive</a></li> -->
+            <li><a href="#tech-dive" class="text-indigo-600 hover:underline">Technical Deep Dive</a></li>
             <!-- <li><a href="#challenges" class="text-indigo-600 hover:underline">Challenges and Solutions</a></li> -->
             <li><a href="#results" class="text-indigo-600 hover:underline">Results and Outcome</a></li>
         </ul>
@@ -76,15 +78,31 @@
       this project seeks to instead explore ways to use the leg extension to kick objects on the floor!
       </p>
       
-      <!-- <h2 id="tech-dive">Technical Deep Dive</h2>
-      <p>The system was built upon the Robot Operating System (ROS) framework for modularity. A LiDAR sensor provided environmental data, while an IMU supplied orientation feedback. I was responsible for the following:</p>
-      <ul>
-        <li><strong>Sensor Fusion:</strong> Implemented a Kalman filter in C++ to fuse data from the IMU and LiDAR, providing a more accurate state estimation of the drone.</li>
-        <li><strong>SLAM Implementation:</strong> Utilized the GMapping ROS package to process LiDAR scans and build a real-time occupancy grid map of the surroundings.</li>
-        <li><strong>Path Planning:</strong> Developed a pathfinding algorithm using A* search on the generated map to navigate from a start point to a goal point while avoiding obstacles.</li>
-        <li><strong>Mechanical Design:</strong> Designed the quadcopter frame and sensor mounts in SolidWorks, ensuring structural integrity and minimizing vibration.</li>
-      </ul> -->
+      <h2 id="tech-dive">Technical Deep Dive</h2>
 
+      Defining requirements:
+
+      <p>
+        I approached this problem by defining some technical requirements:
+      <ul>
+        <li>
+          <strong>Path planning:</strong> The quadrotor, given its current location and the soccerball's location, should be able to track 
+          a trajectory that begins from its starting position and ending at the soccerball. This trajectory can comprise of two phases, a lunging phase where it builds momentum, and a free fall phase where it falls towards the soccerball.
+      </li> 
+      <li>
+        <strong>Attitude control:</strong> 
+        We would like to point the leg extension towards the ball as it falls down. This was an interesting problem and I found out through experiments, the impact of motor saturation on tracking performance.
+      </li>
+
+      <li>
+        <strong>Landing position control:</strong> 
+        After gathering enough momentum, when the quadrotor switches to the free fall phase of its flight, we would like to precisely control the landing position. This requirement conflicts with the above requirement (Attitude control), since the applied thrust and torque commands are coupled through the motor mixing algorithm.
+      </li>
+
+    </ul>
+      There are some smaller, practical subproblems I needed to address to achieve my objective. For example, there is no way to define a rigid body in motion capture software to track soccerballs since any markers pasted on a ball will eventually be hidden as the ball rolls.
+
+      
       <!-- <h2 id="challenges">Challenges and Solutions</h2>
       <p>One of the main challenges was sensor noise from the IMU, which caused drift in the map. This was mitigated by fine-tuning the Kalman filter parameters and implementing a loop closure detection mechanism to correct the map when the drone recognized a previously visited area.</p> -->
 
@@ -111,6 +129,14 @@
     </footer>
 
   </div>
+
+  <!-- Back to Table of Contents Button -->
+  <button id="backToToc" class="back-to-toc" onclick="scrollToToc()">
+    ↑ Back to Sections
+  </button>
+
+  <!-- Back to TOC JavaScript -->
+  <script src="assets/js/back-to-toc.js"></script>
 
 </body>
 </html>

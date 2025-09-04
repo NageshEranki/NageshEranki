@@ -1,4 +1,4 @@
-## Welcome to my GitHub profile!
+## Welcome!
 
 I earned an MS in Aerospace Engineering (Control & Dynamical Systems) from UIUC in 2024 and a BS in Mechanical Engineering from Mahindra University in 2020. Through coursework, I have the following competencies:
   - Control Theory/design for linear systems
